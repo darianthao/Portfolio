@@ -1,3 +1,8 @@
 .HomePage {
 background-color: #191919;
 }
+
+.viewProjectsButton{
+    text-align: center;
+    justify-content: center;
+}

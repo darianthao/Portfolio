@@ -1,21 +1,24 @@
+import React from 'react';
+import { MDBBtn } from 'mdb-react-ui-kit';
 import {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "../../NavBar/NavBar";
-import ImageCarousel from "../../ImageCarousel/ImageCarousel";
 
 import "./HomePage.css";
+import TitleCard from "../../TitleCard/TitleCard";
 
 
 class HomePage extends Component {
     render(){
         return (
-            <>
-                <NavBar/>
-                <ImageCarousel/>
-                <div className="HomePage">
-                Hello
+            <div className="HomePage">
+                <TitleCard/>
+                <div className="viewProjectsButton">
+                    <MDBBtn outline color='warning' >
+                        View Projects
+                    </MDBBtn>
                 </div>
-            </>
+            </div>
         )
     }
 }

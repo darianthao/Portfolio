@@ -1,0 +1,27 @@
+
+.Banner {
+    padding: 60px;
+    text-align: center;
+    background: #191919;
+    color: white;
+    font-size: 30px;
+}
+
+.Title {
+    font-family: Ebrima;
+    font-size: 128px;
+    margin-bottom: 20px;
+    color: white;
+    stroke: blue;
+}
+
+.Caption {
+    font-family: "Courier New";
+    color: #9494a7;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+.Caption:hover{
+    color: aliceblue;
+}
