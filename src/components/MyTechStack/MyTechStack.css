@@ -1,0 +1,42 @@
+
+.MyTechStackComponent {
+    padding: 60px;
+    text-align: center;
+    background: #191919;
+    color: white;
+    font-size: 30px;
+}
+
+.TechStackTitle {
+    font-family: Courier New;
+    font-size: 68px;
+    color: white;
+    stroke: blue;
+}
+
+.TechStackCaption {
+    font-size: 15px;
+    font-family: "Courier New";
+    color: #9494a7;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+.Caption:hover{
+    color: aliceblue;
+}
+
+#img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+#img-wrapper > div {
+    flex: 0 1 16%;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+}

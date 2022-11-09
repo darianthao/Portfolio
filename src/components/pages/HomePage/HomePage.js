@@ -6,6 +6,7 @@ import NavBar from "../../NavBar/NavBar";
 
 import "./HomePage.css";
 import TitleCard from "../../TitleCard/TitleCard";
+import MyTechStack from "../../MyTechStack/MyTechStack";
 
 
 class HomePage extends Component {
@@ -18,6 +19,7 @@ class HomePage extends Component {
                         View Projects
                     </MDBBtn>
                 </div>
+                <MyTechStack/>
             </div>
         )
     }
