@@ -3,6 +3,7 @@ import { MDBBtn } from 'mdb-react-ui-kit';
 import {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "../../NavBar/NavBar";
+import ProjectsGrid from "../../ProjectsGrid/ProjectsGrid";
 
 import "./HomePage.css";
 import TitleCard from "../../TitleCard/TitleCard";
@@ -20,6 +21,7 @@ class HomePage extends Component {
                     </MDBBtn>
                 </div>
                 <MyTechStack/>
+                <ProjectsGrid/>
             </div>
         )
     }

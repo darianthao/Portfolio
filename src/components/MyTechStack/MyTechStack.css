@@ -30,6 +30,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 90px;
+    align-content: center;
+    justify-content: center;
 }
 
 #img-wrapper > div {

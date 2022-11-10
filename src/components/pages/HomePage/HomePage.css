@@ -1,5 +1,7 @@
 .HomePage {
 background-color: #191919;
+    align-content: center;
+    justify-content: center;
 }
 
 .viewProjectsButton{
