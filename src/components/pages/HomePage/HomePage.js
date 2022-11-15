@@ -8,6 +8,7 @@ import ProjectsGrid from "../../ProjectsGrid/ProjectsGrid";
 import "./HomePage.css";
 import TitleCard from "../../TitleCard/TitleCard";
 import MyTechStack from "../../MyTechStack/MyTechStack";
+import Footer from "../../Footer/Footer";
 
 
 class HomePage extends Component {
@@ -22,6 +23,7 @@ class HomePage extends Component {
                 </div>
                 <MyTechStack/>
                 <ProjectsGrid/>
+                <Footer/>
             </div>
         )
     }
