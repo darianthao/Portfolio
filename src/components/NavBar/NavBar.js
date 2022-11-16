@@ -1,28 +1,41 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import './NavBar.css'
+import React, { useState } from 'react';
+import {
+    MDBNavbar,
+    MDBContainer,
+    MDBNavbarBrand,
+    MDBNavbarToggler,
+    MDBNavbarItem,
+    MDBNavbarLink,
+    MDBIcon,
+    MDBCollapse
+} from 'mdb-react-ui-kit';
 
-function NavBar() {
+export default function NavBar() {
+    const [showNavExternal, setShowNavExternal] = useState(false);
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="NavBar">
-            <Container>
-                <Navbar.Brand href="#home">Darian Thao's Portfolio</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#features">Resume</Nav.Link>
-                        <Nav.Link href="#pricing">Videography</Nav.Link>
-                        <NavDropdown title="Click For More" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Socials</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Email</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <div className="sticky-top">
+            <MDBCollapse show={showNavExternal}>
+                <div className='bg-dark p-4'>
+                    <h5 className='text-white h4'>Collapsed content</h5>
+                    <span className='text-muted'>Toggleable via the navbar brand.</span>
+                </div>
+            </MDBCollapse>
+            <MDBNavbar className="position-absolute top-0 end-0">
+                <MDBContainer fluid >
+                    <MDBNavbarToggler
+                        type='button'
+                        data-target='#navbarToggleExternalContent'
+                        aria-controls='navbarToggleExternalContent'
+                        aria-expanded='false'
+                        aria-label='Toggle navigation'
+                        onClick={() => setShowNavExternal(!showNavExternal)}
+                        className="bg-light"
+                    >
+                        <MDBIcon icon='bars' fas />
+                    </MDBNavbarToggler>
+                </MDBContainer>
+            </MDBNavbar>
+        </div>
     );
 }
-
-export default NavBar;
