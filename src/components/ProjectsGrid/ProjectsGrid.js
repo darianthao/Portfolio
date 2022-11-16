@@ -16,10 +16,10 @@ function ProjectsGrid() {
     return (
         <div className="projectsSection">
             <div className="projectsHeader">
-                <h1 className="TechStackTitle">
+                <h1 className="projectsHeaderTitle">
                     Projects
                 </h1>
-                <p className="TechStackCaption">
+                <p className="projectsHeaderCaption">
                     projects I've been working on
                 </p>
             </div>

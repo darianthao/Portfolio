@@ -2,16 +2,16 @@
 .MyTechStackComponent {
     padding: 60px;
     text-align: center;
-    background: #191919;
+    background: #2a6592;
     color: white;
     font-size: 30px;
 }
 
 .TechStackTitle {
     font-family: Courier New;
-    font-size: 68px;
+    font-size: 92px;
     color: white;
-    stroke: blue;
+    -webkit-text-stroke: 2px black;
 }
 
 .TechStackCaption {

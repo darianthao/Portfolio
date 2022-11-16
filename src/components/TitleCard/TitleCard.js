@@ -2,16 +2,15 @@ import "./TitleCard.css"
 
 function TitleCard() {
     return (
+        <div className="rainbow">
         <div className="Banner">
             <h1 className="Title">
-                Darian K. Thao
+                Darian Thao
             </h1>
             <p className="Caption">
-                I'm a Hmong American Software Engineer from St. Paul, Minnesota
+                Software Engineer | 1st Generation Hmong American
             </p>
-            <p className="Caption">
-                Let's create something special!
-            </p>
+        </div>
         </div>
     );
 }

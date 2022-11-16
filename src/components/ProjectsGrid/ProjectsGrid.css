@@ -1,17 +1,26 @@
+.projectsSection{
+    padding: 60px;
+}
+
+
 .projectsGrid{
     padding: 3rem 3rem 3rem 3rem;
     margin: 3rem 3rem 0rem 3rem;
     display: flex;
+
 }
 
-.projectsHeader{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.projectsHeaderTitle{
+    font-family: Courier New;
+    font-size: 92px;
+    color: white;
+    -webkit-text-stroke: 2px black;
 }
 
-.projectsSection{
-    justify-content: center;
-    align-items: center;
-    margin-top: 9rem;
+.projectsHeaderCaption{
+    font-size: 15px;
+    font-family: "Courier New";
+    color: #9494a7;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
 }
