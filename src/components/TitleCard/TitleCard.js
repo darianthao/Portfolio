@@ -4,7 +4,7 @@ function TitleCard() {
     return (
         <div className="Banner">
             <h1 className="Title">
-                Darian Thao
+                Darian K. Thao
             </h1>
             <p className="Caption">
                 I'm a Hmong American Software Engineer from St. Paul, Minnesota
