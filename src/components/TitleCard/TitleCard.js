@@ -10,7 +10,7 @@ function TitleCard() {
                 I'm a Hmong American Software Engineer from St. Paul, Minnesota
             </p>
             <p className="Caption">
-                Let's create something special
+                Let's create something special!
             </p>
         </div>
     );
