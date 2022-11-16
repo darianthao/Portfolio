@@ -7,7 +7,7 @@ import {
     MDBCardText,
     MDBRow,
     MDBCol,
-    MDBCardLink
+    MDBCardLink, MDBIcon
 
 } from 'mdb-react-ui-kit';
 import './ProjectsGrid.css';
@@ -24,27 +24,7 @@ function ProjectsGrid() {
                 </p>
             </div>
         <div className="projectsGrid">
-            <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
-                <MDBCol>
-                    <MDBCard className='h-100'>
-                        <MDBCardImage
-                            src='https://mdbootstrap.com/img/new/standard/city/044.webp'
-                            alt='...'
-                            position='top'
-                        />
-                        <MDBCardBody>
-                            <MDBCardTitle>Card title</MDBCardTitle>
-                            <MDBCardText>
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This
-                                card has even longer content than the first to show that equal height action.
-                            </MDBCardText>
-                        </MDBCardBody>
-                        <MDBCardBody>
-                            <MDBCardLink href='#'>Card link</MDBCardLink>
-                            <MDBCardLink href='#'>Card link</MDBCardLink>
-                        </MDBCardBody>
-                    </MDBCard>
-                </MDBCol>
+            <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
                 <MDBCol>
                     <MDBCard className='h-100'>
                         <MDBCardImage
@@ -53,15 +33,16 @@ function ProjectsGrid() {
                             position='top'
                         />
                         <MDBCardBody>
-                            <MDBCardTitle>Card title</MDBCardTitle>
+                            <MDBCardTitle>The Shady Shack</MDBCardTitle>
                             <MDBCardText>
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This
-                                card has even longer content than the first to show that equal height action.
+                                With a team of developers, created a mock store that would sell the highly demanded products
+                                at a not so shady price.
                             </MDBCardText>
                         </MDBCardBody>
                         <MDBCardBody>
-                            <MDBCardLink href='#'>Card link</MDBCardLink>
-                            <MDBCardLink href='#'>Card link</MDBCardLink>
+                            <MDBIcon fab icon='github' /> &nbsp;
+                            <MDBCardLink href='https://github.com/darianthao/YorkTeamProject'>Get Code</MDBCardLink>
+                            <MDBCardLink href='#'>Deploy</MDBCardLink>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -73,15 +54,16 @@ function ProjectsGrid() {
                             position='top'
                         />
                         <MDBCardBody>
-                            <MDBCardTitle>Card title</MDBCardTitle>
+                            <MDBCardTitle>Best Buy Camera Store</MDBCardTitle>
                             <MDBCardText>
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This
-                                card has even longer content than the first to show that equal height action.
+                                I developed a mock camera store that would interact with Best Buy's API to query data
+                                and pull it into my application using Java Spring
                             </MDBCardText>
                         </MDBCardBody>
                         <MDBCardBody>
-                            <MDBCardLink href='#'>Card link</MDBCardLink>
-                            <MDBCardLink href='#'>Card link</MDBCardLink>
+                            <MDBIcon fab icon='github' /> &nbsp;
+                            <MDBCardLink href='https://github.com/darianthao/capstone'>Get Code</MDBCardLink>
+                            <MDBCardLink href='#'>Deploy</MDBCardLink>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>

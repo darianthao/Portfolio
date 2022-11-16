@@ -13,38 +13,29 @@ function Footer() {
     return (
         <MDBFooter className='text-center mt-lg-5'>
             <MDBContainer className='p-4 pb-0'>
+                <p className="text-bg-dark"> Socials </p>
                 <section className='mb-4'>
-                    <MDBBtn outline color="dark" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='facebook-f' />
-                    </MDBBtn>
 
                     <MDBBtn outline color="dark" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='twitter' />
+                        <MDBIcon fab icon='google' data-mdb-toggle="tooltip" title="Google" />
                     </MDBBtn>
 
-                    <MDBBtn outline color="dark" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='google' />
-                    </MDBBtn>
-                    <MDBBtn outline color="dark" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='instagram' />
+                    <MDBBtn outline color="dark" floating className='m-1' href='https://leetcode.com/dariankthao/' role='button'>
+                        <MDBIcon fab icon='fab fa-java' data-mdb-toggle="tooltip" title="LeetCode" />
                     </MDBBtn>
 
-                    <MDBBtn outline color="dark" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='linkedin-in' />
+                    <MDBBtn outline color="dark" floating className='m-1' href='https://www.linkedin.com/in/darian-thao/' role='button'>
+                        <MDBIcon fab icon='linkedin-in' data-mdb-toggle="tooltip" title="LinkedIn" />
                     </MDBBtn>
 
-                    <MDBBtn outline color="dark" floating className='m-1' href='#!' role='button'>
-                        <MDBIcon fab icon='github' />
+                    <MDBBtn outline color="dark" floating className='m-1' href='https://github.com/darianthao' role='button'>
+                        <MDBIcon fab icon='github' data-mdb-toggle="tooltip" title="GitHub" />
                     </MDBBtn>
                 </section>
             </MDBContainer>
 
-            <div className='text-center p-3' style={{ backgroundColor: "#2a6592" }}>
+            <div className='text-center p-3' style={{ backgroundColor: "#8ec3eb" }}>
                 <div>© 2022 Copyright: Darian Thao</div>
-                Made Using:&nbsp;
-                <a className='text-white' href='https://mdbootstrap.com/'>
-                    MDBootstrap.com
-                </a>
             </div>
         </MDBFooter>
     );
