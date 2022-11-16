@@ -8,7 +8,7 @@ import HomePage from "./components/pages/HomePage/HomePage";
 function App() {
   return (
 <>
-<BrowserRouter>
+<BrowserRouter basename="portfolio">
   <Routes>
 
     <Route path="/" element={<HomePage/>}/>

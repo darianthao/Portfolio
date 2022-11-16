@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.41569244.css",
+    "main.js": "/portfolio/static/js/main.5f0da598.js",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/AzureIcon.png": "/portfolio/static/media/AzureIcon.74fd3c74f03fde6a94af.png",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/ReactIcon.png": "/portfolio/static/media/ReactIcon.86c8d9eba03e29814d2a.png",
+    "static/media/JavaSpringIcon.png": "/portfolio/static/media/JavaSpringIcon.f546847d156bf54a1a87.png",
+    "static/media/MySqlIcon.png": "/portfolio/static/media/MySqlIcon.bdbd1eb709e4c13258d2.png",
+    "static/media/LinuxIcon.png": "/portfolio/static/media/LinuxIcon.c5ea348605f7d9eefff5.png",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/JiraIcon.png": "/portfolio/static/media/JiraIcon.bfdaee442bc8319cfff3.png",
+    "static/media/GitHubIcon.png": "/portfolio/static/media/GitHubIcon.44eee0c4a6c25b0d7347.png",
+    "static/media/PostManIcon.png": "/portfolio/static/media/PostManIcon.3ac4d7844e6d9a8023da.png",
+    "static/media/CSSIcon.png": "/portfolio/static/media/CSSIcon.463e319bad8e0edf1ef7.png",
+    "static/media/HTMLIcon.png": "/portfolio/static/media/HTMLIcon.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/JavaScriptIcon.png": "/portfolio/static/media/JavaScriptIcon.3dfb665e058d08c99f28.png",
+    "static/media/JavaIcon.png": "/portfolio/static/media/JavaIcon.6c64373d3b7415758078.png",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.41569244.css.map": "/portfolio/static/css/main.41569244.css.map",
+    "main.5f0da598.js.map": "/portfolio/static/js/main.5f0da598.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41569244.css",
+    "static/js/main.5f0da598.js"
+  ]
+}
