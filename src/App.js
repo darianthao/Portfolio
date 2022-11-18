@@ -8,6 +8,7 @@ import MyTechStack from "./components/MyTechStack/MyTechStack";
 import ProjectsGrid from "./components/ProjectsGrid/ProjectsGrid";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 import React from "react";
 
@@ -21,6 +22,7 @@ function App() {
 
         <MyTechStack/>
         <ProjectsGrid/>
+          <AboutMe/>
         <Footer/>
 
       </div>

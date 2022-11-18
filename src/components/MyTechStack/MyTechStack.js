@@ -28,8 +28,6 @@ function MyTechStack() {
                 <div data-mdb-toggle="tooltip" title="CSS(Cascading Style Sheets"><img src={CSSIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="HTML5"><img src={HTMLIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="Spring"><img src={JavaSpringIcon} id="img"/></div>
-            </div>
-            <div id="img-wrapper">
                 <div data-mdb-toggle="tooltip" title="Jira"><img src={JiraIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="Github"><img src={GitHubIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="Linux"><img src={LinuxIcon} id="img"/></div>
@@ -37,6 +35,7 @@ function MyTechStack() {
                 <div data-mdb-toggle="tooltip" title="MySql"><img src={MySqlIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="Postman"><img src={PostManIcon} id="img"/></div>
             </div>
+
         </div>
     );
 }
