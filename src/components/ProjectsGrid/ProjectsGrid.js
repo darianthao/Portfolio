@@ -11,6 +11,8 @@ import {
 
 } from 'mdb-react-ui-kit';
 import './ProjectsGrid.css';
+import shadyShackImage from './images/shadyShack.png'
+import bestBuyCameraImage from './images/bestBuyCameraStore.png'
 
 function ProjectsGrid() {
     return (
@@ -28,7 +30,7 @@ function ProjectsGrid() {
                 <MDBCol>
                     <MDBCard className="MBDCard h-100">
                         <MDBCardImage
-                            src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+                            src={shadyShackImage}
                             alt='...'
                             position='top'
                         />
@@ -49,7 +51,7 @@ function ProjectsGrid() {
                 <MDBCol>
                     <MDBCard className="MBDCard h-100">
                         <MDBCardImage
-                            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
+                            src={bestBuyCameraImage}
                             alt='...'
                             position='top'
                         />
