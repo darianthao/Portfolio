@@ -1,5 +1,6 @@
 .projectsSection{
     padding: 60px;
+    background: #232044;
 }
 
 
@@ -8,6 +9,11 @@
     margin: 3rem 3rem 0rem 3rem;
     display: flex;
 
+}
+.MBDCard {
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, slateblue, coral) border-box;
+    border: 5px solid transparent;
 }
 
 .projectsHeaderTitle{

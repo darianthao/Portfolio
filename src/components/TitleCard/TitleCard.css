@@ -1,10 +1,11 @@
 
 .Banner {
-    padding: 400px;
+    padding: 325px 0 100% 0;
     text-align: center;
-    background: #8ec3eb;
     color: white;
     font-size: 20px;
+    background: url("C:\Users\Redux\IdeaProjects\Portfolio\src\components\TitleCard\images\portfolioBackground.gif");
+    background-size: cover;
 }
 
 .Title {

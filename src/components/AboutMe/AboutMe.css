@@ -1,6 +1,6 @@
 
 .AboutMe{
-
+    background: #5c56ad;
 }
 
 .header{
@@ -10,24 +10,26 @@
     -webkit-text-stroke: 2px black;
 }
 .body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 2rem 2rem;
-    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 10rem auto 0 auto;
+
 }
 
 .description {
     font-family: "Courier New";
-    text-align: left;
+    text-align: center;
     font-size: 24px;
+    margin-left: 40px;
+    color: white;
 }
 
 img.portfolioSelfie {
     background: linear-gradient(#fff, #fff) padding-box,
     linear-gradient(45deg, slateblue, coral) border-box;
-
     border: 5px solid transparent;
     border-radius: 50px;
+
 }
 

@@ -2,7 +2,7 @@
 .MyTechStackComponent {
     padding: 60px;
     text-align: center;
-    background: #2a6592;
+    background: #232044;
     color: white;
     font-size: 30px;
 }
@@ -26,11 +26,14 @@
     color: aliceblue;
 }
 
+
 #img-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 125px 125px 125px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px;
+    grid-row-gap: 100px;
     margin-top: 100px;
+    margin-bottom: 100px;
     align-content: center;
     justify-content: center;
 }
@@ -40,6 +43,6 @@
 }
 
 #img {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
 }

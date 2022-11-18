@@ -21,6 +21,9 @@ function MyTechStack() {
             <p className="TechStackCaption">
                 technologies I love working with
             </p>
+            <p className="TechStackCaption">
+                hover on an icon
+            </p>
             <div id="img-wrapper">
                 <div data-mdb-toggle="tooltip" title="Java"><img src={JavaIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="JavaScript"><img src={JavaScriptIcon} id="img"/></div>
@@ -35,7 +38,6 @@ function MyTechStack() {
                 <div data-mdb-toggle="tooltip" title="MySql"><img src={MySqlIcon} id="img"/></div>
                 <div data-mdb-toggle="tooltip" title="Postman"><img src={PostManIcon} id="img"/></div>
             </div>
-
         </div>
     );
 }

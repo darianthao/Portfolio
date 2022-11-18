@@ -16,13 +16,12 @@ import React from "react";
 function App() {
   return (
       <div className="App">
-
         <NavBar/>
-        <TitleCard/>
 
-        <MyTechStack/>
-        <ProjectsGrid/>
-          <AboutMe/>
+          <section id="Home"><TitleCard/> </section>
+          <section id="Technologies"><MyTechStack/></section>
+          <section id="Projects"><ProjectsGrid/></section>
+          <section id="AboutMe"><AboutMe/></section>
         <Footer/>
 
       </div>
