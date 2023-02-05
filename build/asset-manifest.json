@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b9c24f94.css",
-    "main.js": "/portfolio/static/js/main.4555b0bb.js",
+    "main.js": "/portfolio/static/js/main.fb184e49.js",
     "static/media/portfolioBackground.gif": "/portfolio/static/media/portfolioBackground.f7679712a2a689f394a0.gif",
     "static/media/shadyShack.png": "/portfolio/static/media/shadyShack.12aa34ffb9f918f64e61.png",
     "static/media/bestBuyCameraStore.png": "/portfolio/static/media/bestBuyCameraStore.8d72ce8f6a1eefc09b4d.png",
@@ -10,8 +10,8 @@
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.c483152ec71db37b4ab0.pdf",
     "static/media/AzureIcon.png": "/portfolio/static/media/AzureIcon.74fd3c74f03fde6a94af.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.3ce6f5a06a974e37eed6.pdf",
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
     "static/media/ReactIcon.png": "/portfolio/static/media/ReactIcon.86c8d9eba03e29814d2a.png",
     "static/media/JavaSpringIcon.png": "/portfolio/static/media/JavaSpringIcon.f546847d156bf54a1a87.png",
@@ -29,10 +29,10 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/portfolio/index.html",
     "main.b9c24f94.css.map": "/portfolio/static/css/main.b9c24f94.css.map",
-    "main.4555b0bb.js.map": "/portfolio/static/js/main.4555b0bb.js.map"
+    "main.fb184e49.js.map": "/portfolio/static/js/main.fb184e49.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c24f94.css",
-    "static/js/main.4555b0bb.js"
+    "static/js/main.fb184e49.js"
   ]
 }
