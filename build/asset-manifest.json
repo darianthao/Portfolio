@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b9c24f94.css",
-    "main.js": "/portfolio/static/js/main.5faad482.js",
+    "main.js": "/portfolio/static/js/main.4555b0bb.js",
     "static/media/portfolioBackground.gif": "/portfolio/static/media/portfolioBackground.f7679712a2a689f394a0.gif",
+    "static/media/shadyShack.png": "/portfolio/static/media/shadyShack.12aa34ffb9f918f64e61.png",
+    "static/media/bestBuyCameraStore.png": "/portfolio/static/media/bestBuyCameraStore.8d72ce8f6a1eefc09b4d.png",
     "static/media/portfolioSelfie.png": "/portfolio/static/media/portfolioSelfie.5ea27927c82cff88825c.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
@@ -27,10 +29,10 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/portfolio/index.html",
     "main.b9c24f94.css.map": "/portfolio/static/css/main.b9c24f94.css.map",
-    "main.5faad482.js.map": "/portfolio/static/js/main.5faad482.js.map"
+    "main.4555b0bb.js.map": "/portfolio/static/js/main.4555b0bb.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c24f94.css",
-    "static/js/main.5faad482.js"
+    "static/js/main.4555b0bb.js"
   ]
 }
