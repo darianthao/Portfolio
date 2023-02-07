@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b9c24f94.css",
-    "main.js": "/portfolio/static/js/main.fb184e49.js",
-    "static/media/portfolioBackground.gif": "/portfolio/static/media/portfolioBackground.f7679712a2a689f394a0.gif",
+    "main.css": "/portfolio/static/css/main.c65a049a.css",
+    "main.js": "/portfolio/static/js/main.26929163.js",
     "static/media/shadyShack.png": "/portfolio/static/media/shadyShack.12aa34ffb9f918f64e61.png",
     "static/media/bestBuyCameraStore.png": "/portfolio/static/media/bestBuyCameraStore.8d72ce8f6a1eefc09b4d.png",
-    "static/media/portfolioSelfie.png": "/portfolio/static/media/portfolioSelfie.5ea27927c82cff88825c.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
@@ -28,11 +26,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/portfolio/index.html",
-    "main.b9c24f94.css.map": "/portfolio/static/css/main.b9c24f94.css.map",
-    "main.fb184e49.js.map": "/portfolio/static/js/main.fb184e49.js.map"
+    "main.c65a049a.css.map": "/portfolio/static/css/main.c65a049a.css.map",
+    "main.26929163.js.map": "/portfolio/static/js/main.26929163.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9c24f94.css",
-    "static/js/main.fb184e49.js"
+    "static/css/main.c65a049a.css",
+    "static/js/main.26929163.js"
   ]
 }
