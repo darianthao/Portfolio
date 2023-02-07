@@ -14,29 +14,23 @@ import PostManIcon from './Icons/PostManIcon.png'
 
 function MyTechStack() {
     return (
-        <div className="MyTechStackComponent">
-            <h1 className="TechStackTitle">
-                Tech Stack
+        <div className="myTechStackComponent">
+            <h1 className="techStackTitle">
+                Technologies
             </h1>
-            <p className="TechStackCaption">
-                technologies I love working with
-            </p>
-            <p className="TechStackCaption">
-                hover on an icon
-            </p>
             <div id="img-wrapper">
-                <div data-mdb-toggle="tooltip" title="Java"><img src={JavaIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="JavaScript"><img src={JavaScriptIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="React.js"><img src={ReactIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="CSS(Cascading Style Sheets"><img src={CSSIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="HTML5"><img src={HTMLIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="Spring"><img src={JavaSpringIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="Jira"><img src={JiraIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="Github"><img src={GitHubIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="Linux"><img src={LinuxIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="Microsoft Azure"><img src={AzureIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="MySql"><img src={MySqlIcon} id="img"/></div>
-                <div data-mdb-toggle="tooltip" title="Postman"><img src={PostManIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Java"><img src={JavaIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="JavaScript"><img src={JavaScriptIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="React.js"><img src={ReactIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="CSS(Cascading Style Sheets"><img src={CSSIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="HTML5"><img src={HTMLIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Spring"><img src={JavaSpringIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Jira"><img src={JiraIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Github"><img src={GitHubIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Linux"><img src={LinuxIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Microsoft Azure"><img src={AzureIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="MySql"><img src={MySqlIcon} id="img"/></div>
+                <div className="icon" data-mdb-toggle="tooltip" title="Postman"><img src={PostManIcon} id="img"/></div>
             </div>
         </div>
     );

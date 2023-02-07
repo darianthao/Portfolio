@@ -18,7 +18,7 @@ function TitleCard() {
             <p className="Caption">
                 Software Engineer | 1st Generation Hmong American
             </p>
-            <Button style={{marginTop: "10em"}}>Welcome to my Portfolio</Button>
+            <Button style={{marginTop: "10em"}}>Welcome To My Portfolio</Button>
 
         </div>
     );

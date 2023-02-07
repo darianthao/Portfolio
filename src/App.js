@@ -19,9 +19,9 @@ function App() {
         <NavBar/>
 
           <section id="Home"><TitleCard/> </section>
+          <section id="AboutMe"><AboutMe/></section>
           <section id="Technologies"><MyTechStack/></section>
           <section id="Projects"><ProjectsGrid/></section>
-          <section id="AboutMe"><AboutMe/></section>
         <Footer/>
 
       </div>

@@ -1,29 +1,21 @@
 import React from "react";
 import './AboutMe.css'
-import portfolioSelfie from './images/portfolioSelfie.png'
+import {Divider} from "@mui/material";
+
 function AboutMe() {
     return (
-<div className="AboutMe">
-    <div className="header">
-        About Me
-    </div>
-    <div className="body">
-        <img className="image portfolioSelfie" src={portfolioSelfie}/>
-        <div className="description">
-            <p>Growing up, I've always been fascinated
-        by technology. From the estatic flashing lights, to the progression of
-        common necessities such as an mobile phone, to playing video games with my
-        uncle, technology has always been a huge part of my life.</p>
-            <p> I've took it
-                upon myself to indulge in the technical capabilities that are necessary in
-                becoming successful by attaining a degree in Computer Science at the University
-                of Minnesota Duluth. Technology is an industry that is growing at an
-                exponential rate, and I'm excited to see where my journey takes me
-                in the next 10 years. </p>
-            <p> In my free time you can find me at the gym, in discord playing video games,
-                on the soccer field, or purchasing a venti iced matcha green tea latte with soy milk</p>
-        </div>
-    </div>
+<div className="aboutMe">
+    <Divider variant="middle" className="divider"></Divider>
+    <section>
+        <h1>About Me</h1>
+        <p>I am a 1st generation Hmong American full stack engineer with a diverse tool kit.
+        I also love dabbling with technologies outside of my scope to attain a more robust
+            retrospective of cutting edge technologies used in all of today's applications.</p>
+        <p>I embrace the grind and if you don't find me sitting behind my computer, you can
+        find me at the gym, on the soccer field, or eating really good food.</p>
+    </section>
+    <Divider variant="middle" className="divider"/>
+
 </div>
     );
 }

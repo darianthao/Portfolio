@@ -1,35 +1,24 @@
-
-.AboutMe{
-    background: #5c56ad;
-}
-
-.header{
-    font-family: Courier New;
-    font-size: 92px;
+.aboutMe{
     color: white;
-    -webkit-text-stroke: 2px black;
-}
-.body {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    margin: 10rem auto 0 auto;
 
 }
 
-.description {
-    font-family: "Courier New";
-    text-align: center;
-    font-size: 24px;
-    margin-left: 40px;
-    color: white;
+.aboutMe h1{
+    margin-left: 20%;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
 }
 
-img.portfolioSelfie {
-    background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(45deg, slateblue, coral) border-box;
-    border: 5px solid transparent;
-    border-radius: 50px;
-
+.aboutMe p{
+    margin-left: 20%;
+    width: 50em;
+    font-size: 1.5em;
+    margin-bottom: 4em;
 }
 
+.divider{
+    height: 6px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, rgb(57, 62, 65) 0%, rgb(89, 131, 129) 100%);
+    padding-top: 1.5em;
+}
