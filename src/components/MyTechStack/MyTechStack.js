@@ -11,6 +11,8 @@ import LinuxIcon from './Icons/LinuxIcon.png'
 import MySqlIcon from './Icons/MySqlIcon.png'
 import JavaSpringIcon from './Icons/JavaSpringIcon.png'
 import PostManIcon from './Icons/PostManIcon.png'
+import {Divider} from "@mui/material";
+import React from "react";
 
 function MyTechStack() {
     return (
@@ -32,6 +34,7 @@ function MyTechStack() {
                 <div className="icon" data-mdb-toggle="tooltip" title="MySql"><img src={MySqlIcon} id="img"/></div>
                 <div className="icon" data-mdb-toggle="tooltip" title="Postman"><img src={PostManIcon} id="img"/></div>
             </div>
+            <Divider variant="middle" className="divider"/>
         </div>
     );
 }

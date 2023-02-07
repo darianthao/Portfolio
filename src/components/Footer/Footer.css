@@ -1,3 +1,9 @@
 .footerSection {
 
 }
+
+.text-bg-dark{
+    background: linear-gradient(#2a2828, #000000) padding-box,
+    linear-gradient(45deg, slateblue, coral) border-box;
+    border: 2px solid transparent;
+}

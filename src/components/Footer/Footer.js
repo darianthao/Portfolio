@@ -30,7 +30,8 @@ function Footer() {
                 </section>
             </MDBContainer>
 
-            <div className='text-center p-3' style={{ backgroundColor: "#0d1d31" }}>
+            <div className='text-center p-3' style={{ backgroundColor: "#0d1d31",
+            color: "white"}}>
                 <div>© 2022 Copyright: Darian Thao</div>
             </div>
         </MDBFooter>

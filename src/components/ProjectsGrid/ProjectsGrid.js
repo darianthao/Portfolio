@@ -17,14 +17,9 @@ import bestBuyCameraImage from './images/bestBuyCameraStore.png'
 function ProjectsGrid() {
     return (
         <div className="projectsSection">
-            <div className="projectsHeader">
                 <h1 className="projectsHeaderTitle">
                     Projects
                 </h1>
-                <p className="projectsHeaderCaption">
-                    projects I've been working on
-                </p>
-            </div>
         <div className="projectsGrid">
             <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
                 <MDBCol>

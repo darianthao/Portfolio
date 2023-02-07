@@ -16,7 +16,6 @@ import React from "react";
 function App() {
   return (
       <div className="App">
-        <NavBar/>
 
           <section id="Home"><TitleCard/> </section>
           <section id="AboutMe"><AboutMe/></section>

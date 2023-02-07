@@ -21,7 +21,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-row-gap: 6em;
     place-items: center;
-    margin: 0em 10em 0em 10em;
+    margin: 0em 10em 8em 10em;
 }
 
 #img-wrapper > div {
